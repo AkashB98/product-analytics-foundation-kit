@@ -1,0 +1,46 @@
+{
+  "evals": [
+    {
+      "detail": "stream md5 f7c3abfdd07c564de9587cb1e9d4257f",
+      "name": "E1_generator_determinism",
+      "passed": true
+    },
+    {
+      "detail": "{'total_rows': 372, 'duplicate_rows': 15, 'bot_rows': 40, 'distinct_event_ids': 357}",
+      "name": "E2_planted_traps",
+      "passed": true
+    },
+    {
+      "detail": "raw 288 -> cleaned 232",
+      "name": "E3_sessions_pinned",
+      "passed": true
+    },
+    {
+      "detail": "{'landing_view': 120, 'signup': 84, 'activation_action': 51, 'purchase': 30}",
+      "name": "E4_funnel_pinned",
+      "passed": true
+    },
+    {
+      "detail": "bots dilute landing->signup 0.7000 -> 0.5250",
+      "name": "E5_trap_impact_funnel_top",
+      "passed": true
+    },
+    {
+      "detail": "overall 0.3571",
+      "name": "E6_payer_conversion_pinned",
+      "passed": true
+    },
+    {
+      "detail": "signups/payers identical raw vs cleaned",
+      "name": "E7_cleaning_invents_nothing",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "E8_impact_is_deterministic",
+      "passed": true
+    }
+  ],
+  "passed": 8,
+  "total": 8
+}
